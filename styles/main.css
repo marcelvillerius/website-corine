@@ -505,6 +505,10 @@ footer {
     display: none;
   }
 
+  .hero {
+    padding-top: 68px;
+  }
+
   .hero img:nth-child(odd) {
     display: none;
   }
