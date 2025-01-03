@@ -1,0 +1,539 @@
+/* roboto-100 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 100;
+  src: url("../fonts/roboto-v32-latin-100.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-100italic - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 100;
+  src: url("../fonts/roboto-v32-latin-100italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-300 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/roboto-v32-latin-300.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-300italic - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 300;
+  src: url("../fonts/roboto-v32-latin-300italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v32-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-italic - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/roboto-v32-latin-italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-500 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/roboto-v32-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-500italic - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 500;
+  src: url("../fonts/roboto-v32-latin-500italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/roboto-v32-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-700italic - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/roboto-v32-latin-700italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-900 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/roboto-v32-latin-900.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-900italic - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 900;
+  src: url("../fonts/roboto-v32-latin-900italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  background: #fff;
+  color: #000;
+  font: 300 62.5% / 1.6 Roboto, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+article,
+aside,
+audio,
+footer,
+header,
+nav,
+section,
+video {
+  display: block;
+}
+::selection {
+  background-color: #001158;
+  color: #fff;
+}
+
+.embed-media {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+  margin: 4rem auto;
+  clear: both;
+}
+
+.embed-media iframe,
+.embed_media object,
+.embed_media embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* ensures that older browsers will display HTML5 elements correctly */
+
+h1 {
+  font-size: 4rem;
+}
+
+textarea {
+  resize: vertical;
+}
+
+/* changes textarea resizing from "both" (UA default) to vertical only */
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  padding: 0.5rem;
+}
+
+/* causes tables to actually look like tables */
+
+img {
+  border: none;
+  max-width: 100%;
+}
+
+/* removes outlines from linked images (for older browsers and IE), sets up images for responsive design layout */
+
+input[type="submit"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner {
+  border: 0px;
+}
+
+/* removes the inner border effect from focused buttons for form elements in Firefox */
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  appearance: textfield;
+}
+
+input[type="submit"] {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+/* removes the OS X appearance from HTML5 search inputs and submit buttons when viewed in Safari */
+
+input:required:after {
+  color: #f00;
+  content: " *";
+}
+
+/* sets up required form fields with the conventional following red asterix */
+input[type="email"]:invalid {
+  background: #f00;
+}
+
+/* causes a visual alert in browsers that do client-side checking of HTML5 email field â€“ this may already be the default in some browsers. */
+
+.right {
+  float: right;
+  margin-left: 2rem;
+  clear: right;
+}
+
+.left {
+  float: left;
+  margin-right: 2rem;
+  clear: left;
+}
+
+/* allows a quick shortcut for floating elements left and right while avoiding the â€œfloat quirkâ€ problem */
+
+sub,
+sup {
+  line-height: 0;
+}
+
+/* sets superscript and subscript text so that it doesn't throw off leading for elements in which they are included */
+.wrapper {
+  width: 90%;
+  max-width: 1080px;
+  margin: auto;
+  position: relative;
+}
+
+header {
+  background-color: #799ba5;
+  color: white;
+  text-align: center;
+}
+
+.logo {
+  display: inline;
+}
+
+.logo-big {
+  width: 29.5%;
+  margin: 50px 0;
+  opacity: 0.8;
+}
+
+.logo-small {
+  width: 11%;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hero img {
+  width: 16.66%;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+nav.visible {
+  transform: translateY(0px);
+  opacity: 1;
+  position: fixed;
+  z-index: 10;
+}
+
+nav {
+  opacity: 0;
+  background-color: #799ba8;
+  padding: 1rem 3rem;
+  position: fixed;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  transform: translateY(-100%);
+  transition: all 0.7s ease-in-out;
+}
+
+nav ul {
+  list-style: none;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 18px 0;
+  float: right;
+}
+
+nav li {
+  display: inline;
+  margin-left: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 100px 0;
+  margin: 0 auto;
+  color: #fff;
+}
+
+section h2 {
+  font: 300 4rem / 1.2 Roboto;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+section p {
+  font: 300 1.8rem / 1.8 Roboto;
+  color: #666;
+}
+
+#section-one {
+  background: #a0bdc4;
+  text-align: center;
+}
+
+#section-two {
+  background: #c9dae1;
+  color: #799ba7;
+}
+
+.columns {
+  column-count: 2;
+  gap: 50px;
+}
+
+.columns p {
+  margin-top: 0;
+}
+
+#section-one p {
+  max-width: 400px;
+  margin: auto;
+  color: #fff;
+}
+
+#section-three {
+  color: #799ca6;
+}
+
+#section-four {
+  background: #c9dae1;
+  color: #799ba8;
+}
+
+#section-five {
+  color: #799ca6;
+}
+
+#section-six {
+  background: #a1bdc4;
+}
+
+.adviezen {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5%;
+}
+
+.advies {
+  width: 30%;
+}
+
+.advies h3 {
+  font: 300 24px / 1.2 Roboto;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.advies figure {
+  width: 60px;
+  border: solid 1px #799ca6;
+  border-radius: 100%;
+  padding: 20px;
+  aspect-ratio: 1;
+  margin: auto;
+}
+
+.advies em {
+  color: #799ba8;
+}
+
+.price-table {
+  margin: auto;
+  font-size: 18px;
+  max-width: 580px;
+  color: #666;
+}
+
+.price-table td {
+  padding: 14px 0;
+}
+
+.price-table td:nth-child(even) {
+  text-align: right;
+}
+
+#section-four p {
+  max-width: 580px;
+  margin: 20px auto 0;
+}
+
+.over-mij {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10%;
+}
+
+.over-mij figure {
+  width: 24%;
+  padding: 0;
+  margin: 0;
+}
+
+.over-mij .columns {
+  width: 66%;
+}
+
+.contact {
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.6rem;
+  display: block;
+}
+
+footer {
+  background-color: #799ba7;
+  color: white;
+  padding: 1rem;
+  min-height: 24px;
+}
+
+@media only screen and (max-width: 768px) {
+  .mobile-nav {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 20px;
+    z-index: 11;
+    cursor: pointer;
+    padding: 10px;
+    background: transparent;
+    border: none;
+  }
+
+  .mobile-nav span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background: white;
+    margin: 5px 0;
+  }
+
+  .navigation__list {
+    display: none;
+  }
+
+  .navigation__list.active {
+    display: block;
+    position: fixed;
+    top: 68px;
+    left: 0;
+    right: 0;
+    background: #799ba8;
+    width: 75%;
+    padding: 20px 20px 20px;
+    z-index: 10;
+    margin: auto;
+  }
+
+  nav {
+    transform: translateY(0px);
+    opacity: 1;
+    position: fixed;
+    z-index: 10;
+  }
+
+  .logo-small {
+    width: 20%;
+  }
+
+  nav li {
+    display: block;
+    margin: 10px 0;
+  }
+  nav a {
+    color: #fff;
+    display: block;
+    padding: 5px 0;
+    font-size: 1.8rem;
+  }
+
+  header {
+    display: none;
+  }
+
+  .hero img:nth-child(odd) {
+    display: none;
+  }
+
+  .hero img {
+    width: 33.3%;
+  }
+  .columns {
+    column-count: inherit;
+  }
+  .advies {
+    width: 100%;
+  }
+
+  .over-mij .columns {
+    width: 100%;
+  }
+
+  .over-mij figure {
+    width: 40%;
+    margin: 0 auto 60px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .over-mij figure {
+    width: 80%;
+  }
+  .logo-small {
+    width: 40%;
+  }
+}
